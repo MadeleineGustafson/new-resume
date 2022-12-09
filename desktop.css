@@ -34,7 +34,7 @@
       }
   
       .firstbox {
-        height: 60rem;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         background-image: url(./images/background3.png);
