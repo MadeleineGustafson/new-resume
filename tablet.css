@@ -1,0 +1,53 @@
+@media (min-width: 700px) {
+
+    .hamburger {
+        color: white;
+    }
+    .frontPage {
+        height: 100vh;
+    }
+
+    .firstbox {
+        height: 80rem;
+    }
+
+    #lightbulb, .fa-solid fa-cloud-sun {
+        z-index: 1000;
+        color: white;
+        margin-top: 2rem;
+        text-align: right;
+    }
+
+    .myProjects {
+        width: 20rem;
+        height:20rem; 
+        border-radius: 1rem;
+    }
+
+    .navigation {
+        height: 100%;
+    }
+    
+    .myProjects2 {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 1rem;
+    }
+
+    .title-tablet {
+        font-size: 4rem;
+    }
+    .aboutme {
+        display: flex;
+        justify-content: space-evenly; 
+    }
+    
+    .whoami, .education {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        align-items: center;
+        gap: 1rem;
+    }
+  
+  }

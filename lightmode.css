@@ -1,0 +1,31 @@
+/* Light mode*/
+
+.switch {
+    background-color: white ;
+    color: var(--blue); 
+}
+
+.switch a {
+    color: var(--blue);
+}
+
+ .switch .fa-envelope {
+    color: var(--blue);
+        
+}
+
+.switch .fa-linkedin {
+    color: var(--blue);
+}
+
+.switch  .fa-github {
+    color: var(--blue);
+}
+
+.switch .desktop-list {
+    color: white;
+}
+
+.switch .hamburger {
+    color: white;
+}

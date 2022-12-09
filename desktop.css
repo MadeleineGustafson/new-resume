@@ -1,0 +1,133 @@
+@media (min-width: 900px) {
+
+    .frontPage {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      background-color: white;
+      background-image: url(./images/background.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  
+      #lightbulb {
+      z-index: 1000;
+      color: white;
+      margin-top: 3rem;
+        
+      }
+  
+     .hamburger {
+      display: none;
+     }
+  
+     nav {
+      height: 20rem;
+      overflow: visible;
+     }
+     
+      .title-desktop {
+      font-size: 5rem;
+      }
+  
+      .firstbox {
+        height: 60rem;
+        display: flex;
+        flex-direction: column;
+        background-image: url(./images/background3.png);
+      }
+  
+     .project-section, .about-section, .skills-section, .contact-section {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 4rem;
+      padding-right: 4rem;
+  }
+  
+      .project-section {
+        margin-bottom: 2rem;
+      }
+  
+      .projectbox {
+        display: flex;
+        flex-direction: row;
+      }
+  
+      .myskills {
+        display: flex;
+        flex-direction: row;
+        gap: 8rem;
+      }
+  
+      .contactbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+      }
+  
+      .connect {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+      }
+  
+      .myskills, .aboutme, .contactme  {
+      width: 70%;
+      }
+  
+      .rotate {
+        transform: rotate(-90deg); 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 31rem;
+        z-index: 1;
+        
+      }
+  
+      .desktop-list {
+      font-size: 2.5rem;
+      font-family: 'archivo black';
+      
+      }
+  
+      li:hover {
+        transform: rotate(+90deg);
+        transition:1000ms;
+  
+      }
+  
+      a:hover {
+        color: orange;
+        font-weight: bold;
+      }
+      i:hover {
+        color: orange;
+      }
+  
+      .myProjects2, .myProjects {
+      width: 25rem;
+      height: 25rem;
+        
+    }
+  
+    h4 {
+      font-size: 25px;
+  
+    }
+  
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+  
+  
+    }
