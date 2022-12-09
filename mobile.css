@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth; 
+    
   }
 
 body {
@@ -190,7 +191,7 @@ a {
     padding-right: 1.5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    height: 100vh;;
+    height: 100vh;
 }
 
 .projectbox {
